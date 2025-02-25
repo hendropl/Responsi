@@ -1,0 +1,362 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    min-height: 100vh; /* Minimal setinggi layar */
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url('nama-gambar.jpg'); /* Ganti dengan gambar background */
+    background-size: cover;  /* Menyesuaikan background agar penuh */
+    background-position: center; /* Pusatkan background */
+    background-repeat: no-repeat; /* Hindari pengulangan */
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbackground-design&psig=AOvVaw1rrR3krEuXWUirKYCphSyD&ust=1740555310053000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODcp_un3osDFQAAAAAdAAAAABAE");
+    background-size: 100% 100%;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-links a i {
+    margin-right: 8px;
+}
+
+/* News Section */
+.news article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8faf9;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* News Section */
+.news {
+    max-width: 800px;
+    margin: auto;
+}
+
+.news article {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek Hover */
+.news article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.news h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news article h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+
+/* Efek Hover */
+.biodata:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Photo */
+.profile-photo {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #333;
+}
+.biodata {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek shadow */
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.biodata h1 {
+    margin-bottom: 15px;
+    color: #333;
+}
+.social-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Instagram */
+.social-links a[href*="instagram"] {
+    background: #E1306C;
+    color: white;
+}
+
+.social-links a[href*="instagram"]:hover {
+    background: linear-gradient(45deg, #F56040, #E1306C, #833AB4);
+    transform: scale(1.1);
+}
+
+/* WhatsApp */
+.social-links a[href*="wa.me"] {
+    background: #25D366;
+    color: white;
+}
+
+.social-links a[href*="wa.me"]:hover {
+    background: #1EBE57;
+    transform: scale(1.1);
+}
+
+/* GitHub */
+.social-links a[href*="github"] {
+    background: #333;
+    color: white;
+}
+
+.social-links a[href*="github"]:hover {
+    background: black;
+    transform: scale(1.1);
+}
+
+/* Naikkan teks "Tentang Saya" dan tombol */
+.profile {
+    margin-top: -30px; /* Naikkan sedikit */
+}
+.social-media {
+    margin-bottom: 80px; /* Jarak dari footer */
+}
+footer {
+    padding: 20px 0; /* Tambah jarak dalam footer */
+    margin-top: 50px; /* Beri ruang antara konten & footer */
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: auto; /* Jangan paksa tinggi penuh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: auto;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+/* Background Beranda */
+.beranda {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Fullscreen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+/* Konten di dalam Beranda */
+.beranda .content {
+    max-width: 800px;
+}
+
+.beranda h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.beranda p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Tombol CTA (Call to Action) */
+.cta-button {
+    display: inline-block;
+    background: #ff9800;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #e68900;
+}
+/* Pusatkan teks di tengah halaman */
+.beranda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Sesuaikan dengan tinggi layar */
+    background: #f4f4f4; /* Warna latar belakang */
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Pusatkan secara vertikal */
+    background: url('background.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+}
